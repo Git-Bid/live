@@ -60,11 +60,14 @@ function create_fragment(ctx) {
         <div><h2 class="svelte-auwo9d">Creators</h2> 
             <p class="svelte-auwo9d">pay to get what they need fixed faster</p></div></grid> 
     <grid class="svelte-auwo9d"><div><h2 class="svelte-auwo9d">github integration</h2> 
-            <p class="svelte-auwo9d">we created a chrom extension so you can create <br/>a view issues
-                directly in github</p></div> 
+            <p class="svelte-auwo9d">we created a chrom extension so you can create
+                <br/>a view issues directly in github</p> 
+            <img src="/images/issue.png" alt="issue" style="border-radius: 4pt; margin-top: 20pt; margin: auto; scale: 50%; display: block"/></div> 
         <div><h2 class="svelte-auwo9d">open source</h2> 
             <p class="svelte-auwo9d">exisitng solutions are not open source, Gitbid is itself open
-                source <br/>to promote open source development</p></div></grid>`;
+                source
+                <br/>to promote open source development</p> 
+            <img src="/images/open.png" alt="issue" style="border-radius: 4pt; margin-top: 20pt; margin: auto; scale: 75%; display: block"/></div></grid>`;
 		},
 		m(target, anchor) {
 			insert(target, main1, anchor);
